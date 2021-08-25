@@ -45,4 +45,12 @@ export default {
         title: 'TV Movie',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`
     },
+    fetchNetflixOriginals: {
+        title: 'Netflix Originals',
+        url: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+    },
+    fetchDocumentaries: {
+        title: 'Documentaries',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=99`
+    },
 }

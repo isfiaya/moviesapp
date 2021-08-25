@@ -21,3 +21,14 @@
 .group:hover .navbarIcon {
   animation: bounce 1s infinite;
 }
+.banner-fadeBottom {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+.btn {
+  background-color: rgba(51, 51, 51, 0.5);
+}
